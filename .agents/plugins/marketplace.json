@@ -1,0 +1,20 @@
+{
+  "name": "invision-advisors",
+  "interface": {
+    "displayName": "Invision Advisors"
+  },
+  "plugins": [
+    {
+      "name": "evernote",
+      "source": {
+        "source": "local",
+        "path": "./plugins/evernote"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
