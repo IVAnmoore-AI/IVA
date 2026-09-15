@@ -1,0 +1,24 @@
+{
+  "name": "evernote",
+  "version": "0.1.0",
+  "description": "Use Evernote desktop or Web for searching, reading, organizing, and drafting notes.",
+  "author": {
+    "name": "Invision Advisors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Evernote",
+    "shortDescription": "Work with notes in Evernote desktop or Web.",
+    "longDescription": "Use Evernote desktop or Web to find, read, summarize, organize, and draft note changes with explicit confirmation before modifying or deleting content.",
+    "developerName": "Invision Advisors",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://evernote.com/",
+    "defaultPrompt": [
+      "Find my Evernote notes about this topic.",
+      "Summarize the note open in Evernote.",
+      "Draft an update to this Evernote note."
+    ],
+    "brandColor": "#00A82D"
+  }
+}
